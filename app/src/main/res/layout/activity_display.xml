@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To-Do:"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        ></TextView>
+    <TextView
+        android:id="@+id/taskDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/todo"
+        android:text="task Desc"
+        android:textSize="15sp"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+
+</RelativeLayout>
